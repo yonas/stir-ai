@@ -51,7 +51,7 @@ This map is comprised of four axis, creating four quadrents:
 
 <h3>Quadrants</h3>
 <pre>
-                  Imagination
+                 Imagination
                       |
                       |
                       |
@@ -61,5 +61,5 @@ Time -----------------|----------------- Space
                       |
                       |
                       |
-                  Rational
+                   Rational
 </pre>
