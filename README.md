@@ -49,7 +49,7 @@ This map is comprised of four axis, creating four quadrents:
 <li>Rational</li>
 </ul>
 
-<h3>>Quadrants</h3>
+<h3>Quadrants</h3>
 <pre>
                   Imagination
                       |
