@@ -38,7 +38,7 @@ The goal of STIR A.I. is to create the foundation of an artificial intelligence 
 </ul>
 
 <h3>Universal Map</h3>
-The ultimate achievement is to create one map that the STIR A.I. can use to learn anything.
+The ultimate achievement of STIR A.I. is to create one map that can be used to learn anything.
 
 This map is comprised of four axis, creating four quadrents:
 <pre>
@@ -54,3 +54,64 @@ Time -----------------|----------------- Space
                       |
                    Rational
 </pre>
+<h4>Imagination</h4>
+<pre>
+                 Imagination
+                      |
+                      |
+        Instances     |     Categories
+                      |
+Time -----------------|----------------- Space
+                      |
+                      |
+                      |
+                      |
+                   Rational
+</pre>
+<h4>Rational</h4>
+<pre>
+                 Imagination
+                      |
+                      |
+                      |
+                      |
+Time -----------------|----------------- Space
+                      |
+        Processes     |     Principals
+                      |
+                      |
+                   Rational
+</pre>
+<h4>Temporal</h4>
+<pre>
+                    Time
+                      |
+                    Events
+            Before    |    After
+                      |
+Imagination ----------|---------- Rational
+                      |
+                      |
+                      |
+                      |
+                    Space
+</pre>
+<h4>Spatial</h4>
+<pre>
+                    Time
+                      |
+                      |
+                      |
+                      |
+Imagination ----------|---------- Rational
+                      |
+                      |
+                      |
+                      |
+                    Space
+</pre>
+
+
+<h3>Units of Measurement</h3>
+<h4>Thought Unit</h4>
+The time it takes for the A.I. to make one full trip around the four quadrants.
