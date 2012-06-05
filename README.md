@@ -1,4 +1,3 @@
-stir-ai
+STIR AI - Spatial Temporal Imaginative Rational Artificial Intelligence
 =======
 
-STIR AI - Rational Imaginative Temporal Spatial Artificial Intelligence
