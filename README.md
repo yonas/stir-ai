@@ -12,9 +12,9 @@ The goal of STIR A.I. is to create the foundation of an artificial intelligence 
 </ul>
 
 <h3>2. Capabilities</h3>
-<h4>i) Imaginative</h4>
+<h4>i) Imagination</h4>
 <ul>
-<li>Ability to deduce categorizes through similarities</li>
+<li>Ability to deduce categories through similarities</li>
 <li>Ability to differenciate categories from instances</li>
 </ul>
 
