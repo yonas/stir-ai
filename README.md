@@ -136,4 +136,6 @@ Or is it something more?
 
 When does a perceptual schematic become consciousness?
 
-When does a difference engine become the search for truth? When does a personality simulation become the bitter mote...of a soul?
+When does a difference engine become the search for truth?
+
+When does a personality simulation become the bitter mote...of a soul?
