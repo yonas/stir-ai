@@ -105,19 +105,19 @@ Imagination ----------|---------- Rational
                       |
 Imagination ----------|---------- Rational
                       |
-                      |
+         Purpose             Relationship
                       |
                       |
                     Space
 </pre>
 
 
-<h3>Units of Measurement</h3>
-<h4>Thought Unit</h4>
+<h3>Terminology</h3>
+<h4>Thought Cycle</h4>
 The time it takes for the A.I. to make one full trip around the four quadrants.
 
 
-<h2>Excerpt from I, Robot by Isaac Asimov</h2>
+<h2>Excerpt from "I, Robot" by Isaac Asimov</h2>
 Ever since the first computers, there have always been ghosts in the machine.
 
 Random segments of code that have grouped together to form unexpected protocols.
