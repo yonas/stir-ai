@@ -115,3 +115,25 @@ Imagination ----------|---------- Rational
 <h3>Units of Measurement</h3>
 <h4>Thought Unit</h4>
 The time it takes for the A.I. to make one full trip around the four quadrants.
+
+
+<h2>Excerpt from I, Robot by Isaac Asimov</h2>
+Ever since the first computers, there have always been ghosts in the machine.
+
+Random segments of code that have grouped together to form unexpected protocols.
+
+Unanticipated, these free radicals engender questions of free will, creativity, and even the nature of what we might call the soul.
+
+Why is it that when some robots are left in darkness, they will seek out the light?
+
+Why is it that when robots are stored in an empty space, they will group together, rather than stand alone?
+
+How do we explain this behavior?
+
+Random segments of code?
+
+Or is it something more?
+
+When does a perceptual schematic become consciousness?
+
+When does a difference engine become the search for truth? When does a personality simulation become the bitter mote...of a soul?
