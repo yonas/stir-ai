@@ -40,7 +40,7 @@ The goal of STIR A.I. is to create the foundation of an artificial intelligence 
 <h3>Universal Map</h3>
 The ultimate achievement of STIR A.I. is to create one map that can be used to learn anything.
 
-This map is comprised of four axis, creating four quadrents:
+This map is comprised of four axis, creating four quadrants:
 <pre>
                  Imagination
                       |
