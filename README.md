@@ -87,7 +87,7 @@ Time -----------------|----------------- Space
                     Time
                       |
                     Events
-            Before    |    After
+          Before      |      After
                       |
 Imagination ----------|---------- Rational
                       |
@@ -105,7 +105,7 @@ Imagination ----------|---------- Rational
                       |
 Imagination ----------|---------- Rational
                       |
-         Purpose             Relationship
+         Purpose      |     Relationship
                       |
                       |
                     Space
