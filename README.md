@@ -1,7 +1,7 @@
 <h1>STIR A.I.</h1>
 <h2>Spatial Temporal Imaginative Rational Artificial Intelligence</h2>
 
-The goal of STIR A.I. is to create the basics a artificial intelligence that can demonstrate:
+The goal of STIR A.I. is to create the foundation of an artificial intelligence that can demonstrate the following:
 
 <h3>Awareness</h3>
 <ul>
