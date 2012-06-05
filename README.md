@@ -37,6 +37,7 @@ The goal of STIR A.I. is to create the foundation of an artificial intelligence 
 <li>Ability to deduce the cause of an event</li>
 </ul>
 
+<h3>Universal Map</h3>
 The ultimate achievement is to create one map that the STIR A.I. can use to learn anything.
 
 This map is comprised of four axis, creating four quadrents:
