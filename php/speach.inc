@@ -16,9 +16,24 @@ class TextSpeachEngine extends SpeachEngine {
         $len = count($words);
 
         for ($i = 0; $i < $len - 1; $i++) {
-            echo $words[$i] . " ";
+            $this->ouput($words[$i] . " ");
             usleep( (1 / ($this->wpm / 60)) * 1000000 );
         }
-        echo $words[$i] . "\n";
+        $this->output($words[$i] . "\n");
+    }
+
+    protected function output($text) {
+        echo $text;
+    }
+}
+
+class TestSuiteSpeachEngine extends SpeachEngine {
+    public function say($communication) {
+        return $this->output($communication);
+    }
+
+    protected function output($text) {
+        echo $text . "\n";
+        return $text;
     }
 }

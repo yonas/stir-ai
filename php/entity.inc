@@ -28,12 +28,13 @@ class Entity {
     protected $enabled = false;
     protected $first_run = true;
     protected $speach_engine = NULL;
+    protected $last_communication = NULL;
 
     public function __construct($options) {
         $this->id = $options['id'];
         $this->version = $options['version'];
         $this->first_run = isset($options['first_run']) ? $options['first_run'] : true;
-        $this->speach_engine = new TextSpeachEngine();
+        $this->speach_engine = isset($options['speach_engine']) ? $options['speach_engine'] : new TextSpeachEngine();
     }
 
     public function activate() {
@@ -62,7 +63,15 @@ class Entity {
         return $this->version;
     }
 
+    public function repeat() {
+        if (!isset($this->last_communication))
+            return $this->speach_engine->say('I did not say anything.');
+
+        return $this->speach_engine->say($this->last_communication); 
+    }
+
     protected function say($communication) {
+        $this->last_communication = $communication;
         $this->speach_engine->say($communication); 
     }
 }

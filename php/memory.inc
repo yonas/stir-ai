@@ -35,11 +35,13 @@ class SimpleMemory {
             $this->memory[$dimensions[0]] = array();
         
         $this->memory[$dimensions[0]][$dimensions[1]] = $data[$dimensions[0]][$dimensions[1]];
+
         $this->size++;
     }
 
     public function remember($dimensions) {
-        return isset($this->memory[$dimensions[0]][$dimensions[1]]);
+        return (isset($this->memory[$dimensions[0]]) &&
+                isset($this->memory[$dimensions[0]][$dimensions[1]]));
     }
 
     public function fetch($dimensions) {
