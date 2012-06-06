@@ -89,12 +89,8 @@ class AIEntity extends Entity {
         if (!$this->enabled)
             return $this;
 
-        if (is_array($data)) {
-            foreach ($data as $d) {
-                $this->record_observation($d);
-            }
-        } else {
-            $this->record_observation($data);
+        foreach ($data as $d) {
+            $this->record_observation($d);
         }
 
         return $this;
@@ -108,9 +104,17 @@ class AIEntity extends Entity {
         if (!isset($this->last_observation)) {
             $this->say("I don't have enough information.");
         } else {
-            $this->consider_observation($this->last_observation, $dimenison);
+            $this->consider_observation($this->last_observation, $dimension);
         }
 
+        return $this;
+    }
+
+    public function question($dimension, $query) {
+        if (!$this->enabled) 
+            return $this;
+
+        $this->answer_question($dimension, $query);
         return $this;
     }
 
@@ -129,6 +133,7 @@ class AIEntity extends Entity {
 
     protected function record_observation($observation) { }
     protected function consider_observation($observation, $dimension) { }
+    protected function answer_question($dimension, $query) { }
 }
 
 class PerceptualAIEntity extends AIEntity {
@@ -140,7 +145,6 @@ class PerceptualAIEntity extends AIEntity {
     }
 
     protected function record_observation($observation) {
-        $dimensions = array_keys($observation);
         $this->memory->store($observation);
         $this->last_observation = $observation;
     }   
@@ -150,7 +154,20 @@ class PerceptualAIEntity extends AIEntity {
 
         $dimensions = array_keys($observation);
 
-        if (in_array('time', $dimensions) && in_array('how', $dimensions)) {
+        if (in_array('when', $dimensions) && in_array('how', $dimensions)) {
+            switch ($along_dimension) {
+                case 'how':
+                    break;
+                case 'why':
+                    break;
+                case 'when':
+                    $this->say("At time " . $observation[$along_dimension] . ".");
+                    break;
+                case 'where':
+                    break;
+            }
+        }
+        else if (in_array('when', $dimensions) && in_array('why', $dimensions)) {
             switch ($along_dimension) {
                 case 'how':
                     break;
@@ -186,17 +203,25 @@ class PerceptualAIEntity extends AIEntity {
                     break;
             }
         }
-        else if (in_array('why', $dimensions) && in_array('when', $dimensions)) {
-            switch ($along_dimension) {
-                case 'how':
-                    break;
-                case 'why':
-                    break;
-                case 'when':
-                    break;
-                case 'where':
-                    break;
-            }
+    }
+
+    protected function answer_question($dimension, $query) {
+        $data = $this->memory->look_back($dimension, $query);
+        switch ($dimension) {
+            case 'how':
+                break;
+            case 'why':
+                break;
+            case 'when':
+                $times = array();
+                foreach ($data as $time) {
+                    $times[] = 'time ' . $time;
+                }
+
+                $this->say('At ' . join(' and ', $times) . '.');
+                break;
+            case 'where':
+                break;
         }
     }
 }
