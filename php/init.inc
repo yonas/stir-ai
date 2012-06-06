@@ -44,4 +44,3 @@ $entity = new PerceptualAIEntity(array(
           ));
 
 $entity->activate();
-

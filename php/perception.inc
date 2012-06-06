@@ -2,10 +2,12 @@
 
 class Map {
     protected $id = NULL;
+    protected $version = NULL;
     protected $axis = NULL;
 
     public function __construct($options) {
         $this->id = $options['id'];
+        $this->version = $options['version'];
         $this->axis = $options['axis'];
     }
 }
