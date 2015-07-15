@@ -16,7 +16,7 @@ class TextSpeachEngine extends SpeachEngine {
         $len = count($words);
 
         for ($i = 0; $i < $len - 1; $i++) {
-            $this->ouput($words[$i] . " ");
+            $this->output($words[$i] . " ");
             usleep( (1 / ($this->wpm / 60)) * 1000000 );
         }
         $this->output($words[$i] . "\n");
